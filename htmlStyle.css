@@ -1,0 +1,67 @@
+.maincolor {
+    color: var(--main-color);
+}
+
+.textcolor {
+    color: var(--text-color);
+}
+
+.darkmaincolor {
+    color: var(--dark-main-color);
+}
+
+.darktextcolor {
+    color: var(--dark-text-color);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.center {
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+.roundborder {
+    border-radius: 50%;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.fullscreen {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.hovereffect {
+    transition: 0.5s ease;
+}
+
+.hovereffecttext {
+    transition: 0.5s ease;
+}
+
+.hovereffect:hover {
+    transform: scale(1.05)translateY(-5px);
+    box-shadow: 0 0 20px;
+}
+
+.hovereffecttext:hover {
+    transform: scale(1.05)translateY(-5px);
+    text-shadow: 0 0 20px;
+}
