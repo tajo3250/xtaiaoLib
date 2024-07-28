@@ -17,3 +17,5 @@ function switchIcon(usesDarkMode) {
 
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener( "change", (e) => switchIcon(e.matches));
 switchIcon(usesDarkMode);
+
+// testing
